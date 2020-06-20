@@ -1,22 +1,25 @@
 = hello-sls-appsync
-A minimalistic serverless (the framework) based appsync+lambda datasource template.
 
-Comes with TypeScript support via Babel.
+A minimalistic serverless (the framework) based appsync + lambda datasource template.
 
-Comes with offline development support.
+Details
 
-== How to
+- TypeScript support via Babel
+- Offline development support (serverless-appsync-simulator, serverless-offline)
 
-=== Initialize
+Initialise...
 
     nvm use 12
     npm i
 
-=== Check/build
+Check/build...
 
     npm run lint
     npm run build
 
-=== Start offline server?
+Start offline server...
 
     npm run local
+
+Note: A GraphiQL link is written to the stdout ... click on it and you are ready to rock n' roll with
+GraphQL queries against the lambda function.
