@@ -21,5 +21,12 @@ Start offline server...
 
     npm run local
 
-Note: A GraphiQL link is written to the stdout ... click on it and you are ready to rock n' roll with
+Note: A GraphiQL link is written to stdout ... click on it and you are ready to rock n' roll with
 GraphQL queries against the lambda function.
+
+Deploy to AWS...
+
+    sls deploy
+
+Note: The GraphQL `https://.../graphql` endpoint is written to stdout. 
+An API key is written to stdout too - use with HTTP header `x-api-key` in your favorite GraphQL API client.
