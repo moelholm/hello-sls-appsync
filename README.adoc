@@ -5,7 +5,7 @@ A minimalistic serverless (the framework) based appsync + lambda datasource temp
 Details
 
 - TypeScript support via Babel
-- Offline development support (serverless-appsync-simulator, serverless-offline)
+- Offline development support via `serverless-appsync-simulator` and `serverless-offline`
 
 Initialise...
 
