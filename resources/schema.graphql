@@ -1,0 +1,11 @@
+schema {
+  query: Query
+}
+
+type GetGreetingsResponse {
+  greetings: [String!]!
+}
+
+type Query {
+  getGreetings: GetGreetingsResponse
+}
