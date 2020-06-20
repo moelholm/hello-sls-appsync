@@ -1,0 +1,22 @@
+= hello-sls-appsync
+A minimalistic serverless (the framework) based appsync+lambda datasource template.
+
+Comes with TypeScript support via Babel.
+
+Comes with offline development support.
+
+== How to
+
+=== Initialize
+
+    nvm use 12
+    npm i
+
+=== Check/build
+
+    npm run lint
+    npm run build
+
+=== Start offline server?
+
+    npm run local
